@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Suggestion Form</title>
+    <link rel="stylesheet" type="text/css" href="sugg.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <div class="Logo">
+                <img src="logo.png"></img>
+                <p1>PowerUpPlanet</p1>
+            </div>
+            <li class="item"><a href='index.html'>Home</a></li>
+            <li class="item"><a href='Resources.html'>Resources</a></li>
+            <li class="item"><a href='schemes.html'>Govt.Schemes</a></li>
+            <li class="item"><a href='calculator.html'>Calculator</a></li>
+            <li class="item"><a href='about.html'>About</a></li>
+            <li class="item"><a href='contact.html'>Contact Us</a></li>
+            <li class="item"><a href='sugg.html'>Suggestions</a></li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Suggestion Form</h1>
+        <form id="suggestion-form" action="feedback.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            <label for="email">Regestration No:</label>
+            <input type="text" id="text" name="text" placeholder="Enter your Regestration No" required>
+            <br>
+            <label for="comments">Suggestion:</label>
+            <textarea id="comments" name="comments" rows="5" placeholder="Enter your Suggestion"></textarea>
+            <center><input type="submit" value="Submit"></center>
+        </form>
+    </div>
+</body>
+
+</html>
